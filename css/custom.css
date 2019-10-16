@@ -1,0 +1,62 @@
+/*!
+ * QQ 617498836
+ */
+
+/* header */
+.stui-header__top{ background-color: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+
+/* header-menu */
+.stui-header__menu li a{ color: #000;}
+.stui-header__menu li.active a{ border-bottom: 2px solid #FF9900;}
+
+/* header-search */
+.stui-header__search .form-control{ border: 1px solid #ffb400; background-color: #f5f5f5;}
+.stui-header__search .submit .icon{ color: #999999;}
+
+/* header-user */
+.stui-header__user li a,.stui-header__user li a .icon{ color: #ffb400;}
+
+/* index */
+.stui_nav__taddar .item{ background-color: #f8f8f8;}
+.stui_nav__taddar .item:hover{background-color: #1A9CD6}
+.stui_nav__taddar .item:hover .title{ color: #fff;}
+.stui-index__code{ background-color: #f8f8f8;}
+
+/* screen */
+.stui-screen__list li a{ color: #333333;}
+.stui-screen__list li.active a{ background-color: #FF9900; color: #FFFFFF;}
+.stui-screen__min{ border-left: 1px solid #EEEEEE;}
+.stui-screen__min.first{ border-left: 0;}
+
+/* playlist */
+.stui-content__playlist li a{ border: 1px solid #EEEEEE;}
+.stui-content__playlist li a:hover,.stui-content__playlist li.active a{ border: 1px solid #FF9900; background-color: #FF9900; color: #FFFFFF;}
+
+/* player */
+.stui-player__video{ background-color: #000000;}
+
+
+/* page */
+.stui-page li a,.stui-page li .num{background-color: #FFFFFF; border: 1px solid #EEEEEE;}
+.stui-page li a:hover,.stui-page li.active a,.stui-page li.active .num{ background-color: #FF9900; color: #FFFFFF; border: 1px solid #FF9900;}
+
+/* extra */
+.stui-extra li a,.stui-extra li span{ background-color: #FFFFFF; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+.stui-extra li a.backtop{ background-color: rgba(0,0,0,0.6); color: #FFFFFF; }
+.stui-extra li .sideslip{ background-color: #FFFFFF; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+.stui-extra li .sideslip:before{ background-color: #FFFFFF; border-color: rgba(0, 0, 0, 0.1);}
+
+@media (max-width: 1024px){
+	
+	/* header-menu */
+	.stui-header__menu:before{ border-top: 1px solid #ffb400;}
+
+}
+
+@media (max-width: 767px){
+	
+	/* screen */	
+	.stui-screen__min{ border-left: 0;}	
+	.stui-screen__min:before{ border-top: 1px solid #EEEEEE;}		
+		
+}

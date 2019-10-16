@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body{ background: #F2F2F2; color: #666;}
+
+h1, h2, h3, h4, h5, h6,a{ color: #333;}
+
+.btn-warning{background-color: #1A9CD6;border-color: #1A9CD6;color: #fff;}
+
+.btn-warning:hover,.btn-warning:focus,.btn-warning:link,.btn-warning.active{background-color: #1A9CD6;bo;border-color: #1A9CD6;}
+
+a:hover,.text-color,.hy-cascade .content-meun .item ul li a.active,.hy-cascade .content-meun .head span{color: #1A9CD6;}
+
+.text-muted,.hy-play-list .item .panel .downlist .table > thead > tr > th,.hy-cascade .content-meun .item ul li a,.hy-cascade .content-meun .head span.text,.hy-head-menu .item .search .btns{ color: #999;}
+
+.videopic .score:before{ border-top: 4px solid #1A9CD6; border-left: 4px solid transparent;}
+
+.hy-head-menu,.hy-layout,.hy-player,.hy-video-details,.hy-cascade,.hy-gototop .item > li > a,.hy-gototop .item > li > .code,.hy-gototop .item > li > .history,.hy-login{background-color: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+
+.hy-index-menu li a,.hy-index-tags li a,.hy-right-qrcode dl,.hy-play-list .item .panel .playlist ul li a,.hy-page ul li a,.hy-page ul li .num,.hy-head-menu .item .search .form-control,.hy-video-hit .item,.hy-video-hit .item ul li,.btn-default,.hy-footer-partner .item,.hy-footer-partner .item a,.hy-common .item .content,.hy-common .item .num{border: 1px solid #e2e2e2; background-color: #fff; color: #666;}
+
+.hy-index-menu li a:hover,.hy-index-menu li a:hover .icon,.hy-index-tags li a:hover,.hy-cascade .content-meun .head dl dd span,.videopic .score,.hy-page ul li a:hover,.hy-page ul li.active a,.btn-default:hover,.hy-play-list .item .panel .playlist ul li a:hover,.hy-video-ranking li .number.active,.hy-video-details .item .content .head .hit{background-color: #1A9CD6;color: #fff;}
+.hy-page ul li a.on{background-color: #1A9CD6;color: #fff;}
+.page_show {
+
+	margin:20px 0;
+	text-align:center
+}
+.page_show a {
+border: 1px solid #e2e2e2; background-color: #fff; color: #666;
+	display:inline-block;
+	padding:8px 15px;
+	border-radius:4px;margin:2px;
+}
+.page_current{background-color: #1A9CD6;color: #fff;}
+
+
+.hy-min-screen .item dl{ border-left: 1px solid #e2e2e2;}
+
+.hy-video-ranking li .number,.hy-cascade:before,.hy-video-min-head h5:before,.hy-player .item .sidebar,.hy-common .item .content p,.hy-common .item .num em{background: #f4f3f3;}
+
+.hy-topic-content .head,.hy-video-head h4,.hy-video-details.active .item .content,.hy-cascade .left-head li a,.hy-cascade .left-head li.text,.hy-main-side .side,.hy-gototop .item > li > .history .head,.hy-common .item .content p,.hy-common .item .num em,.hy-new-content .item .head{ border-bottom: 1px solid #e2e2e2;}
+
+.hy-play-list .item .panel,.hy-comment-list .item h4{border: 0; border-top: 1px solid #e2e2e2;}
+
+.hy-video-text-list .item li .title a,.hy-play-list .item .panel .playlist,.hy-play-list .item .panel .downlist .table,.hy-play-list .item .panel .playlist,.hy-cascade .content-meun .item ul,.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td,.hy-gototop .item > li > .history li,.hy-new-index-top li,.hy-new-list .item dl{border-top: 1px dashed #e2e2e2;}
+
+.hy-switch-tabs .nav-tabs{ border-bottom: 2px solid #e2e2e2;}
+
+.hy-switch-tabs .nav-tabs li.active a,.hy-switch-tabs .nav-tabs li.active a:hover,.hy-switch-tabs .nav-tabs li.active a:focus,.hy-head-menu .item .menulist li.active a{border: 0;background: none;border-bottom: 2px solid #1A9CD6;colo;color: #1A9CD6;}
+
+.hy-cascade .left-head li a.active,.hy-video-min-head h5 span,.hy-play-list.play .item .panel .playlist,.hy-play-list.play .item .panel .option,.hy-player .item .footer{ background-color: #fff;}
+
+.hy-play-list.play .item .panel .option.collapsed{ background-color: transparent;}
+
+.hy-player .item .info{background-color: #000;}
+
+.hy-player .item .sidebar::-webkit-scrollbar-track{background-color: #ccc;}
+
+.hy-player .item .sidebar::-webkit-scrollbar-thumb { background-color: #999;}
+
+.hy-player .item .sidebar::-webkit-scrollbar-track-piece {background: transparent;}
+
+.hy-gototop .item > li > .code:before,.hy-gototop .item > li > .history:before{ border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 8px solid #fff;}
+
+.hy-member-user .integral{ background-color: #1A9CD6; color: #fff;}
+
+.hy-member-user dt .user{ border: 2px solid #fff;}
+
+.hy-member-user dd .name{ color: #fff;}
+
+.hy-member-user dd .group{ color: #ccc;}
+
+.hy-comment .item .face,.hy-comment-list .item .content,.hy-new-content .item .des{ background-color: #f2f2f2;}
+
+.hy-comment-list .item .content:before{border-left: 8px solid transparent; border-bottom: 8px solid #f2f2f2; border-right: 8px solid transparent;}
+
+.hy-comment-list .item .content .reply{border-bottom: 1px dashed #e2e2e2;}
+
+@media (max-width: 767px){
+	.tabbar{ background-color: #F7F7FA;  border-top: 1px solid #C0BFC4;}
+	
+    .tabbar .item{color: #999;}
+    
+    .tabbar .item.active{color: #1A9CD6;}
+    
+	.hy-layout,.hy-player .content,.hy-player .sidebar .hy-play-list.play{ box-shadow: none; background: #fff;}
+	
+	.hy-head-menu,.hy-video-details{ background: none; border: 0; box-shadow: none;}
+	
+	.hy-index-menu li a:hover,.hy-index-menu li a:hover .icon,.hy-index-tags li a:hover{ background: none; color: #999;}
+	
+	.hy-cascade{ box-shadow: none;}
+	
+	.hy-player .item .footer{  border-bottom: 1px solid #e2e2e2;}
+	
+	.hy-cascade .content-meun .head{ box-shadow: none; background-color: #F7F7FA;  border-bottom: 1px solid #C0BFC4;}
+	
+	.hy-min-screen .item dl{border-left: 0; border-top: 1px dashed #e2e2e2;}
+	
+	.hy-member .password{ border-top: 1px solid #e2e2e2;}
+	
+	.hy-video-footer a{ border-top: 1px solid #f5f5f5;}
+}
+.autocomplete-suggestions { border: 1px solid #e2e2e2; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion {  padding:5px 0 5px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0;}
+.autocomplete-suggestions strong { font-weight: bold; color: #1A9CD6;}	
+.ff-bg{
+	background:#fff;
+}
+#ilingku_jishu {border-radius: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: rgb(26, 156, 214);}/*rgb(255, 0, 0)*/
+/*chang yan by:www.ilingku.com*/
+#SOHUCS #SOHU_MAIN .module-cmt-notice{display:none !important;}
+.section-service-w{display:none !important;}
+#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-main{background:none;background-image:url(../images/logocy.png) !important;}
+#SOHUCS{position:relative;z-index:0 !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .platform-login .split-hr{display:none !important;}
+.phone-login{display:none !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper.changyan-login-dialog-wrapper-main{height:250px !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .platform-login .login-group .login-item .login-logo-phone{display:none !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .platform-login .login-group .login-item .login-logo-wechat{display:none !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .platform-login .login-instruction{display:none !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper.changyan-login-dialog-wrapper-main{background:none;background-image:url(../images/login-bg-high-new.png) !important;}
+#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .cy-logo{background:none !important;}
+#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw{background:none;background-image:url(../images/post-btn.png) !important;}
+#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w, 
+#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w, 
+#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w a{height:0px !important;overflow:hidden !important;}
+#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w .form-text-w a.button-w, 
+#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w div.form-text-w .btn-load-bf { background-image: url(../images/bt-changyan.png)!important;}}

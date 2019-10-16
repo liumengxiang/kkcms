@@ -1,0 +1,17 @@
+
+
+
+
+location /{
+rewrite ^/vod(.)$ /play.php?play=$1;
+rewrite ^/bplay/(.)$ /bplay.php?play=$1;
+rewrite ^/wap/vod(.)$ /wap/play.php?play=$1;
+rewrite ^/wap/bplay/(.)$ /wap/bplay.php?play=$1;
+
+}
+
+
+
+
+
+注意：伪静态不需要强制开启，当前仅提供nginx系统规则文件具体说明请见http://www.showdoc.cc/web/#/kkss?page_id=831724288793669

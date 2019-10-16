@@ -1,0 +1,169 @@
+a, a:link, .a:visited {
+    text-decoration: none;
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.title-search {
+    width: 100%;
+    position: relative;
+}
+.title-search .search {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+.file-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.upload-data-setting {
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.button.submit {
+    background: #5CADEE;
+    color: #fff;
+    border: 1px solid #5cadee;
+}
+.button {
+    font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #7d87a9;
+    border-radius: 2px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.upload-data-video {
+	padding: 10px;
+    margin-left: 0px;
+    border: 1px solid #bdc7df;
+    background: #eef1f8;
+    margin-top: 10px;
+    width: 96%;
+	position: relative;
+	display: none;
+}
+
+.upload-data-video a {
+	background: #92D544, text-decoration :                              
+		    underline;
+}
+
+.upload-data-video>span em {
+	font-style: normal;
+	color: #92d544;
+	padding: 0 5px;
+}
+
+.upload-data-video-title,.upload-data-video-content {
+	width: 100%;
+	height: 50px;
+}
+
+.upload-data-video-title li {
+	float: left;
+	line-height: 50px;
+	height: 50px;
+	list-style: none;
+	background: #e0e5f0;
+}
+
+.upload-data-video-content li {
+	float: left;
+	line-height: 50px;
+	height: 50px;
+	list-style: none;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.upload-video-name {
+	width: 45%;
+	padding-left: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.upload-video-size {
+	width: 12%;
+}
+
+.upload-video-state {
+	width: 33%;
+}
+
+.upload-video-operation {
+	width: 10%;
+	padding-left:20px;
+}
+
+.upload-video-state>span {
+	display: inline-block;
+	height: 16px;
+	width: 70%;
+	background: #e9e9e9;
+	border-radius: 10px;
+	margin-right: 5px;
+	top: 3px;
+	position: relative;
+	text-align: center;
+	line-height: 16px;
+}
+
+.upload-video-state>span u {
+	display: block;
+	height: 16px;
+	width: 0%;
+	background: #7ab2e2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 10px
+}
+
+.upload-video-state>span i {
+	position: relative;
+	z-index: 1001;
+	font-style: normal;
+}
+
+.upload-video-state em {
+	font-style: normal;
+}
+.sy_jiami {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.sy_jiami label {
+    position: relative;
+    display: inline-block;
+}
+.sy_jiami input {
+    width: 134px;
+    height: 30px;
+    border: 1px solid #7d87a9;
+    background: #fff url(../../images/201508/drop-down-bk.png) right center no-repeat;
+    padding-left: 10px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+.sy_jiami ul {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #7d87a9;
+    width: 134px;
+    box-sizing: border-box;
+}
